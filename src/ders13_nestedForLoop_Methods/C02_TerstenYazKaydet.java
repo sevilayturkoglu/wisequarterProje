@@ -10,6 +10,7 @@ public class C02_TerstenYazKaydet {
         for (int i=input.length()-1;i>=0;i--){
           //  ters=ters+input.substring(i,i+1);//son harfi alir ve bir oncekine ekler
             ters+=input.substring(i,i+1);//yukarida yazdigimizla ayni islem
+            //ters+=input.charAt(i);//ayni islemin charAt le yapilisi
             System.out.println(ters);
         }
         System.out.println(ters);

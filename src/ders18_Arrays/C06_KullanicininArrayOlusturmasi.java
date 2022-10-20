@@ -3,15 +3,15 @@ package ders18_Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class C06_ArraysSoru {
+public class C06_KullanicininArrayOlusturmasi {
     public static void main(String[] args) {
         //Soru 5- Kullanicidan array’in boyutunu ve elementlerini alip array’i olusturan
         // ve bize donduren bir method olusturun.
 
         int []yeni=kendiArrayiniYap();//metottan aldigimiz arayi yeni bir aray icine attik
         System.out.println(Arrays.toString(yeni));
-        System.out.println(Arrays.toString(kendiArrayiniYap()));//metottan gelen arayi yazdirdik
-        System.out.println(Arrays.toString(kendiArrayiniYap()));//metodu uc kez cagirdigimiz icin uc kez yazar
+       //System.out.println(Arrays.toString(kendiArrayiniYap()));//metottan gelen arayi yazdirdik
+        //System.out.println(Arrays.toString(kendiArrayiniYap()));//metodu uc kez cagirdigimiz icin uc kez yazar
 
     }
 
