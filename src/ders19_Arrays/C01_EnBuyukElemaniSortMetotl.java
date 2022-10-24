@@ -17,5 +17,6 @@ public class C01_EnBuyukElemaniSortMetotl {
         int enbuyuk=arr[arr.length-1];
         int enkucuk=arr[0];
         System.out.println(enkucuk+" \n"+enbuyuk);
+
     }
 }

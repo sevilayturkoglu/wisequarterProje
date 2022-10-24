@@ -7,7 +7,7 @@ public class C09_kullanicidanElemanAlArrayYap {
     public static void main(String[] args) {
         //kullanicidan eleman al array yap
         //kullanici sifir girdiginde array bitsin
-        int[]arr={1,};
+        int[]arr={1};
        int girilenSayi=0;
 
         do {

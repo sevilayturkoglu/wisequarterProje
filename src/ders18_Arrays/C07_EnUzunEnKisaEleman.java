@@ -21,6 +21,7 @@ public class C07_EnUzunEnKisaEleman {
                 enUzunKelime=str[i];
             }
         }
+
         System.out.println("en kisa kelime = " + enKisaKelime + "  en uzun kelime=  " + enUzunKelime);
     }
 }

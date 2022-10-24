@@ -25,6 +25,9 @@ public class C05_SplitMetodu {
         for(int i=0;i<str2.length;i++){
 
             if(str2[i].equals("a")){
+
+
+
                 count++;
             }
         }
