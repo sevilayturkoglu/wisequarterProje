@@ -6,11 +6,11 @@ public class C01_TerstenYazmaIntrwiew {
         String input = "Java guzel";
         String ters="";
         for (int i = input.length()-1; i >= 0; i--) {
-          // ters+=input.charAt(i);
+          ters+=input.charAt(i);
 
-           System.out.print(input.charAt(i));
+          // System.out.print(input.charAt(i));
         }
-        System.out.println();
-       //System.out.println(ters);
+      //  System.out.println();
+       System.out.println(ters);
     }
 }
