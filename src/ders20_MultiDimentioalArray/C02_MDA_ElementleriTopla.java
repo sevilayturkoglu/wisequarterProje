@@ -15,7 +15,7 @@ public class C02_MDA_ElementleriTopla {
         int [][]arr2={{1,2},{3,4,5},{7}};
         int top1=0;
         for(int i=0;i<arr2.length;i++){
-            for (int j=0;j<arr2[i].length;j++){
+            for (int j=0;j<arr2[i].length;j++){//lengti ornegin arr[0]in lengti kadar olacak
                 top1+=arr2[i][j];
             }
         }

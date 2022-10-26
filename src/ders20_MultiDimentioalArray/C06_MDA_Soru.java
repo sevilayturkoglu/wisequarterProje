@@ -12,5 +12,6 @@ public class C06_MDA_Soru {
 
         }
        System.out.println(top);
+        //System.out.println(arr[0][arr[0].length-1]);inerr arayin 0 elemaninin son indexini aldik .11.satiri anlamak icin yazdim
     }
 }

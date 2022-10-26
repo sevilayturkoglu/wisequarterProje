@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class C07_MDA_Soru {
     public static void main(String[] args) {
         //verilen iki katli arrayde ayni indexe sahip elemanlari toplayip yeni bir array olusturun
-        //int[][] arr={{3,4,5}{2,3,6,7}}; 3+2=5   4+3=7  5+6=11
+        //int[][] arr={{3,4,5}{2,3,6,7}};   3+2=5   4+3=7  5+6=11
         //  int[] yeni={5,7,11};gibi
 
         int[][] arr={{3,4,5},{2,3,6,7}};
