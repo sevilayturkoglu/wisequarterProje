@@ -20,5 +20,10 @@ public class C05_ForEachLoop {
             }
         }
         System.out.println(isimler);
+        for (String each:isimler) {
+            System.out.println(each);
+
+        }
+        System.out.println(isimler.get(0));
     }
 }

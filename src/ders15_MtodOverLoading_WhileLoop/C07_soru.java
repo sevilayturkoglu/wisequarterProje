@@ -7,20 +7,19 @@ public class C07_soru {
         /*
         kullanicidan bir sayi ve ussunu isteyip hesaplayip yazdiranbir metot olusturun
          */
-        int sayi=5;
-        int us=3;
-        usHesaplama(sayi,us);
 
-    }public static void usHesaplama(int sayi,int us){
+        System.out.println(usHesaplama());
+
+    }public static int usHesaplama(){
         Scanner scan=new Scanner(System.in);
         System.out.println("lutfen sayi ve us giriniz");
-        sayi= scan.nextInt();
-        us=scan.nextInt();
+       int sayi= scan.nextInt();
+       int us=scan.nextInt();
         int sonuc=1;
         while (us>0){
             sonuc*=sayi;
             us--;
         }
-        System.out.println(sonuc);
+        return sonuc;
     }
 }

@@ -16,7 +16,7 @@ public class C03_ArraysAsList {
         Integer []arr={1,2,3};
         List<Integer>arraydenList= Arrays.asList(arr);
         System.out.println(arraydenList);//[1, 2, 3] yazar
-
+        arraydenList.forEach(n-> System.out.println(n+"****"));//lambda forEach
        // arraydenList.add(3);//ekleme yapmak istersek
        // System.out.println(arraydenList); //run time error verir
 

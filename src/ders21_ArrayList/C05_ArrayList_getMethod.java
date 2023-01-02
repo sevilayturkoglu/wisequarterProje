@@ -13,5 +13,6 @@ public class C05_ArrayList_getMethod {
         liste.add("seher");
 
         liste.get(2);//esra yi getirir
+
     }
 }
